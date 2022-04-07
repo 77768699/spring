@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="509.0" y="173.5">org.springframework.context.annotation.AnnotationConfigRegistry</node>
+    <node x="132.5" y="0.0">org.springframework.beans.factory.support.BeanDefinitionRegistry</node>
+    <node x="0.0" y="80.0">org.springframework.context.support.GenericApplicationContext</node>
+    <node x="151.25" y="347.0">org.springframework.context.annotation.AnnotationConfigApplicationContext</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.context.annotation.AnnotationConfigApplicationContext" target="org.springframework.context.annotation.AnnotationConfigRegistry">
+      <point x="143.66666666666663" y="-85.5" />
+      <point x="510.41666666666663" y="322.0" />
+      <point x="629.0" y="322.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.context.annotation.AnnotationConfigApplicationContext" target="org.springframework.context.support.GenericApplicationContext">
+      <point x="-143.66666666666663" y="-85.5" />
+      <point x="223.08333333333337" y="322.0" />
+      <point x="122.25" y="322.0" />
+      <point x="-122.25" y="108.5" />
+    </edge>
+    <edge source="org.springframework.context.support.GenericApplicationContext" target="org.springframework.beans.factory.support.BeanDefinitionRegistry">
+      <point x="0.0" y="-108.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="365.0" y="224.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

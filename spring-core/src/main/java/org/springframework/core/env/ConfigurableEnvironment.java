@@ -168,4 +168,8 @@ public interface ConfigurableEnvironment extends Environment, ConfigurableProper
 	 */
 	void merge(ConfigurableEnvironment parent);
 
+	@Override
+	default void validateRequiredProperties() throws MissingRequiredPropertiesException {
+
+	}
 }
